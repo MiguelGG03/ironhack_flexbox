@@ -1,0 +1,52 @@
+@media (min-width:600px) and (max-width:915px) {
+    .container {
+        width: 100%;
+    }
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para cada sección */
+.section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.subcabecera {
+    background-color: #ff0800; /* Color de fondo diferente */
+    padding: 10px; /* Espaciado interno diferente */
+    text-align: center;
+    size:40px;
+}
+
+/* Herencia de color de texto desde la cabecera principal */
+.subcabecera h2 {
+    color: inherit;
+    font-size: 48px;
+}
+
+h1 {
+    margin: 0; /* Elimina el margen predeterminado del encabezado */
+}
